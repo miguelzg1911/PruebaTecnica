@@ -46,6 +46,7 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
 La solución utiliza un flujo de Integración y Despliegue Continuo (CI/CD) para garantizar la entrega de valor constante.
 
+```mermaid
 graph TD
     subgraph Azure_Cloud[Microsoft Azure]
         AS[Azure App Service]
@@ -58,10 +59,10 @@ graph TD
     end
 
     User((Cliente)) -->|HTTPS| AS
-    ```
+```
     
 
-    ### 5. Instrucciones de Ejecución Local
+### 5. Instrucciones de Ejecución Local
 Backend (.NET 8)
 
     Navegar a la carpeta PruebaTecnicaBack.
