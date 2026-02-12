@@ -1,0 +1,3 @@
+/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Domain.dll
+/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Domain.deps.json
+/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Domain.pdb

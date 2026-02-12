@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj": {}
+    "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj": {}
   },
   "projects": {
-    "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj": {
+    "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj",
         "projectName": "Electra.Api",
-        "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj",
+        "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Api/Electra.Api.csproj",
         "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Api/obj/",
+        "outputPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coders/.nuget/NuGet/NuGet.Config"
@@ -27,11 +27,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj": {
-                "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj"
+              "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj": {
+                "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj"
               },
-              "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj": {
-                "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj"
+              "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj": {
+                "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj": {
+    "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj",
         "projectName": "Electra.Application",
-        "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj",
+        "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/Electra.Application.csproj",
         "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Application/obj/",
+        "outputPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coders/.nuget/NuGet/NuGet.Config"
@@ -109,8 +109,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
-                "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj"
+              "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
+                "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
+    "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj",
         "projectName": "Electra.Domain",
-        "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj",
+        "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj",
         "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/obj/",
+        "outputPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coders/.nuget/NuGet/NuGet.Config"
@@ -210,14 +210,14 @@
         }
       }
     },
-    "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj": {
+    "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj",
         "projectName": "Electra.Infrastructure",
-        "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj",
+        "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/Electra.Infrastructure.csproj",
         "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Infrastructure/obj/",
+        "outputPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coders/.nuget/NuGet/NuGet.Config"
@@ -233,8 +233,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
-                "projectPath": "/home/coders/Imágenes/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj"
+              "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj": {
+                "projectPath": "/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/Electra.Domain/Electra.Domain.csproj"
               }
             }
           }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Electra.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61e13608270e990c21e6a66b153e837a4b05d280")]
 [assembly: System.Reflection.AssemblyProductAttribute("Electra.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Electra.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
