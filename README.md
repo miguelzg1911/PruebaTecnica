@@ -68,7 +68,7 @@ Backend (.NET 8)
 
 - Restaurar paquetes: dotnet restore.
 
-- Ejecutar: dotnet run. La API estará disponible en http://localhost:5150.
+- Ejecutar: dotnet run --project Electra.Api/. La API estará disponible en http://localhost:5150.
 
 Frontend (React)
 
