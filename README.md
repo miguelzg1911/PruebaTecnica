@@ -31,15 +31,15 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
 ## 3. Tecnologías Usadas
 
-    Frontend: React 18 con componentes funcionales y Hooks.
+Frontend: React 18 con componentes funcionales y Hooks.
 
-    Backend: ASP.NET Core 8 (C#) con Arquitectura N-Capas.
+Backend: ASP.NET Core 8 (C#) con Arquitectura N-Capas.
 
-    Base de Datos: SQLite (Cumpliendo el RNF de portabilidad).
+Base de Datos: SQLite (Cumpliendo el RNF de portabilidad).
 
-    DevOps: Azure DevOps (Boards, Repos, Pipelines).
+DevOps: Azure DevOps (Boards, Repos, Pipelines).
 
-    Infraestructura: Azure App Service (Linux).
+Infraestructura: Azure App Service (Linux).
 
 ### 4. Arquitectura de Despliegue (Azure)
 
