@@ -68,15 +68,15 @@ Backend (.NET 8)
 
     Restaurar paquetes: dotnet restore.
 
-    Ejecutar: dotnet run. La API estará disponible en http://localhost:5000.
+    Ejecutar: dotnet run. La API estará disponible en http://localhost:5150.
 
 Frontend (React)
 
-    Navegar a la carpeta PruebaTecnicaFront.
+Navegar a la carpeta PruebaTecnicaFront.
 
-    Instalar dependencias: npm install.
+Instalar dependencias: npm install.
 
-    Ejecutar: npm start. La web abrirá en http://localhost:3000.
+Ejecutar: npm start. La web abrirá en (http://localhost:5173/)
 
 6. Funcionalidades Implementadas
 
