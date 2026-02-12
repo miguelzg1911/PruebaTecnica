@@ -18,7 +18,7 @@ graph LR
 ```
 
 
-### 2. Product Backlog (Azure Boards)
+## 2. Product Backlog (Azure Boards)
 
 Se definieron las siguientes User Stories en Azure Boards para guiar el desarrollo ágil del producto:
 
@@ -30,7 +30,7 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
     US4: Control de Disponibilidad: Como Sistema, quiero evitar cruces de agenda para optimizar los costos de visitas fallidas.
 
-### 3. Tecnologías Usadas
+## 3. Tecnologías Usadas
 
     Frontend: React 18 con componentes funcionales y Hooks.
 
@@ -62,7 +62,7 @@ graph TD
 ```
     
 
-### 5. Instrucciones de Ejecución Local
+## 5. Instrucciones de Ejecución Local
 Backend (.NET 8)
 
     Navegar a la carpeta PruebaTecnicaBack.
@@ -79,7 +79,7 @@ Frontend (React)
 
     Ejecutar: npm start. La web abrirá en http://localhost:3000.
 
-### 6. Funcionalidades Implementadas
+## 6. Funcionalidades Implementadas
 
     [x] Formulario de ingreso por NIC.
 
@@ -91,7 +91,7 @@ Frontend (React)
 
     [x] Puntos Extra: Estructura de Monorepo para gestión centralizada.
 
-### 7. Limitaciones Conocidas
+## 7. Limitaciones Conocidas
 
     Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
 
