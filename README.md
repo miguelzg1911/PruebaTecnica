@@ -18,7 +18,7 @@ graph LR
 ```
 
 
-2. Product Backlog (Azure Boards)
+### 2. Product Backlog (Azure Boards)
 
 Se definieron las siguientes User Stories en Azure Boards para guiar el desarrollo ágil del producto:
 
@@ -30,7 +30,7 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
     US4: Control de Disponibilidad: Como Sistema, quiero evitar cruces de agenda para optimizar los costos de visitas fallidas.
 
-3. Tecnologías Usadas
+### 3. Tecnologías Usadas
 
     Frontend: React 18 con componentes funcionales y Hooks.
 
@@ -42,6 +42,57 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
     Infraestructura: Azure App Service (Linux).
 
-4. Arquitectura de Despliegue (Azure)
+### 4. Arquitectura de Despliegue (Azure)
 
 La solución utiliza un flujo de Integración y Despliegue Continuo (CI/CD) para garantizar la entrega de valor constante.
+
+graph TD
+    subgraph Azure_Cloud[Microsoft Azure]
+        AS[Azure App Service]
+        DB[(SQLite File)]
+    end
+
+    subgraph DevOps_Flow[Azure DevOps]
+        R[Azure Repos / GitHub] --> P[Azure Pipelines]
+        P -->|CI/CD Deploy| AS
+    end
+
+    User((Cliente)) -->|HTTPS| AS
+    
+
+    ### 5. Instrucciones de Ejecución Local
+Backend (.NET 8)
+
+    Navegar a la carpeta PruebaTecnicaBack.
+
+    Restaurar paquetes: dotnet restore.
+
+    Ejecutar: dotnet run. La API estará disponible en http://localhost:5000.
+
+Frontend (React)
+
+    Navegar a la carpeta PruebaTecnicaFront.
+
+    Instalar dependencias: npm install.
+
+    Ejecutar: npm start. La web abrirá en http://localhost:3000.
+
+### 6. Funcionalidades Implementadas
+
+    [x] Formulario de ingreso por NIC.
+
+    [x] Selector de fecha y jornada AM/PM.
+
+    [x] Validación de existencia de cliente en base de datos.
+
+    [x] Puntos Extra: Pipeline de CI/CD configurado en Azure DevOps.
+
+    [x] Puntos Extra: Estructura de Monorepo para gestión centralizada.
+
+### 7. Limitaciones Conocidas
+
+    Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
+
+    Autenticación: El acceso se basa exclusivamente en el NIC del cliente (sin contraseña) para facilitar el uso en sectores residenciales.
+
+Desarrollado por: Miguel Ángel Zapata Gutiérrez
