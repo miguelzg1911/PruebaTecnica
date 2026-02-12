@@ -96,4 +96,15 @@ Frontend (React)
 
 - Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
 
+🛠️ Gestión del Proyecto (Azure Boards)
+
+La planificación se realizó bajo metodologías ágiles.
+
+- Enlace al Board: https://dev.azure.com/miguelzg1911/PruebaTecnica-Celsia/_workitems/edit/5/
+
+
+<img width="1855" height="1002" alt="imagen" src="https://github.com/user-attachments/assets/38ff1bc3-af41-42f9-8910-34332114737d" />
+
+
+
 Desarrollado por: Miguel Ángel Zapata Gutiérrez
