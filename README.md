@@ -15,6 +15,7 @@ La plataforma permite a los usuarios residenciales (Estratos 1-3+) autogestionar
 graph LR
     A[Customer Web - React] -- "Solicitudes REST" --> B[Backend - .NET 8 API]
     B -- "Persistencia EF Core" --> C[(Base de Datos - SQLite)]
+```
 
 
 2. Product Backlog (Azure Boards)
