@@ -1,0 +1,6 @@
+@Electra.Api_HostAddress = http://localhost:5150
+
+GET {{Electra.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
