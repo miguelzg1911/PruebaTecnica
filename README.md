@@ -10,10 +10,12 @@ Este proyecto es una solución integral para la gestión de servicios técnicos 
 La plataforma permite a los usuarios residenciales (Estratos 1-3+) autogestionar sus citas técnicas. Se basa en una arquitectura desacoplada que garantiza escalabilidad y facilidad de mantenimiento.
 
 ### Diagrama Conceptual Simple
+
 ```mermaid
 graph LR
     A[Customer Web - React] -- "Solicitudes REST" --> B[Backend - .NET 8 API]
     B -- "Persistencia EF Core" --> C[(Base de Datos - SQLite)]
+
 
 2. Product Backlog (Azure Boards)
 
@@ -42,7 +44,6 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 4. Arquitectura de Despliegue (Azure)
 
 La solución utiliza un flujo de Integración y Despliegue Continuo (CI/CD) para garantizar la entrega de valor constante.
-Fragmento de código
 
 graph TD
     subgraph Azure_Cloud[Microsoft Azure]
@@ -56,6 +57,7 @@ graph TD
     end
 
     User((Cliente)) -->|HTTPS| AS
+
 
 5. Instrucciones de Ejecución Local
 Backend (.NET 8)
@@ -90,7 +92,7 @@ Frontend (React)
 
     Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
 
-    Autenticación: El acceso se basa exclusivamente en el NIC del cliente (sin contraseña) para facilitar el uso en sectores residenciales, según el alcance del reto.
+    Autenticación: El acceso se basa exclusivamente en el NIC del cliente (sin contraseña) para facilitar el uso en sectores residenciales.
 
 Desarrollado por: Miguel Ángel Zapata Gutiérrez
-Rol: Postulante Practicante DevOps - Riwi
+
