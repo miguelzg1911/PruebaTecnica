@@ -21,13 +21,13 @@ graph LR
 
 Se definieron las siguientes User Stories en Azure Boards para guiar el desarrollo ágil del producto:
 
-    US1: Registro de Clientes: Como Operador, quiero registrar clientes con su NIC para habilitar su acceso al sistema.
+    US1: Registro y Gestión de Clientes: Como Operador de Electra, quiero registrar a los usuarios con su NIC y nombre completo para que puedan acceder al sistema de agendamiento de citas técnicas. 
 
-    US2: Validación de Identidad: Como Cliente, quiero ingresar mi NIC para validar que mis datos son correctos antes de agendar.
+    US2: Validación de acceso por NIC: Como Cliente residencial, quiero ingresar mi NIC en el buscador para verificar que mis datos existen en el sistema antes de proceder con el agendamiento. 
 
-    US3: Agendamiento Autónomo: Como Cliente, quiero seleccionar fecha y jornada (AM/PM) para programar mi visita de forma rápida.
+    US3: Agendamiento autónomo de citas: Como Cliente, quiero seleccionar una fecha en el calendario y una jornada (Mañana/Tarde) para programar una visita técnica en mi domicilio. 
 
-    US4: Control de Disponibilidad: Como Sistema, quiero evitar cruces de agenda para optimizar los costos de visitas fallidas.
+    US4: Prevención de cruces de agenda: Como Sistema de Electra, quiero impedir que se agenden dos citas para el mismo NIC en la misma fecha y jornada para optimizar los recursos y evitar visitas fallidas. 
 
 ## 3. Tecnologías Usadas
 
