@@ -1,0 +1,36 @@
+trigger:
+- Develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  # Nombre exacto de tu App Service de la imagen
+  webAppName: 'Microsoft.Web-WebApp-Portal-239d1edb-aa04'
+  azureServiceConnection: 'Azure subscription 1'
+
+steps:
+# --- COMPILAR BACKEND ---
+- task: UseDotNet@2
+  displayName: 'Instalar .NET 8'
+  inputs:
+    version: '8.x'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publicar Backend'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'PruebaTecnicaBack/*.csproj' 
+    arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)/backend'
+    zipAfterPublish: true
+
+# --- DESPLEGAR AL APP SERVICE ---
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Desplegar a Azure App Service'
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: $(azureServiceConnection)
+    appType: 'webAppLinux'
+    WebAppName: $(webAppName)
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/backend/**/*.zip'
