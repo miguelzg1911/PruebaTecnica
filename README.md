@@ -64,19 +64,19 @@ graph TD
 ## 5. Instrucciones de Ejecución Local
 Backend (.NET 8)
 
-    Navegar a la carpeta PruebaTecnicaBack.
+- Navegar a la carpeta PruebaTecnicaBack.
 
-    Restaurar paquetes: dotnet restore.
+- Restaurar paquetes: dotnet restore.
 
-    Ejecutar: dotnet run. La API estará disponible en http://localhost:5150.
+- Ejecutar: dotnet run. La API estará disponible en http://localhost:5150.
 
 Frontend (React)
 
-    Navegar a la carpeta PruebaTecnicaFront.
-    
-    Instalar dependencias: npm install.
-    
-    Ejecutar: npm start. La web abrirá en (http://localhost:5173/)
+- Navegar a la carpeta PruebaTecnicaFront.
+
+- Instalar dependencias: npm install.
+
+- Ejecutar: npm start. La web abrirá en (http://localhost:5173/)
 
 ## 6. Funcionalidades Implementadas
 
@@ -92,8 +92,8 @@ Frontend (React)
 
 ## 7. Limitaciones Conocidas
 
-    Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
+- Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
 
-    Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
+- Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
 
 Desarrollado por: Miguel Ángel Zapata Gutiérrez
