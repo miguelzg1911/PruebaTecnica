@@ -114,8 +114,6 @@ Frontend (React)
     [x] Puntos Extra: Estructura de Monorepo para gestión centralizada.
 
 ## 9. Limitaciones Conocidas
-
-- Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
   
 - Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
   
