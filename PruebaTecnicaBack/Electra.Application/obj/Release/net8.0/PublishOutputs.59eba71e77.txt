@@ -1,5 +1,0 @@
-/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Application.dll
-/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Application.deps.json
-/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Application.pdb
-/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Domain.dll
-/home/coders/Imágenes/PruebaTecnica/PruebaTecnicaBack/publish/Electra.Domain.pdb
