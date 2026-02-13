@@ -75,9 +75,20 @@ graph TD
 
     User((Cliente)) -->|HTTPS| AS
 ```
-    
 
-## 6. Instrucciones de Ejecución Local
+## 6. Dockerización
+
+La solución está completamente contenedorizada para garantizar la portabilidad y consistencia entre entornos.
+
+- Estrategia: Multi-stage build para optimizar el tamaño de la imagen final.
+
+- Persistencia: Uso de volúmenes para el archivo electra.db de SQLite.
+
+- Ejecución con Docker Compose:
+
+        docker-compose up --build
+
+## 7. Instrucciones de Ejecución Local
 Backend (.NET 8)
 
 - Navegar a la carpeta PruebaTecnicaBack.
@@ -94,7 +105,7 @@ Frontend (React)
 
 - Ejecutar: npm start. La web abrirá en (http://localhost:5173/)
 
-## 7. Funcionalidades Implementadas
+## 8. Funcionalidades Implementadas
 
     [x] Formulario de ingreso por NIC.
 
@@ -106,13 +117,13 @@ Frontend (React)
 
     [x] Puntos Extra: Estructura de Monorepo para gestión centralizada.
 
-## 8. Limitaciones Conocidas
+## 9. Limitaciones Conocidas
 
 - Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
 
 - Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
 
-## 9. Gestión del Proyecto (Azure Boards)
+## 10. Gestión del Proyecto (Azure Boards)
 
 La planificación se realizó bajo metodologías ágiles.
 
