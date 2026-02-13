@@ -45,7 +45,7 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 
 - Contenedores: Docker y Docker Compose para orquestación local.
 
-## Calidad de Software
+## 4. Calidad de Software
 
 Se implementó una suite de pruebas unitarias utilizando xUnit para garantizar la integridad de la lógica de agendamiento.
 
@@ -57,7 +57,7 @@ Se implementó una suite de pruebas unitarias utilizando xUnit para garantizar l
 
   - Resultado: 3 pruebas superadas exitosamente.
 
-### 4. Arquitectura de Despliegue (Azure)
+### 5. Arquitectura de Despliegue (Azure)
 
 La solución utiliza un flujo de Integración y Despliegue Continuo (CI/CD) para garantizar la entrega de valor constante.
 
@@ -77,7 +77,7 @@ graph TD
 ```
     
 
-## 5. Instrucciones de Ejecución Local
+## 6. Instrucciones de Ejecución Local
 Backend (.NET 8)
 
 - Navegar a la carpeta PruebaTecnicaBack.
@@ -94,7 +94,7 @@ Frontend (React)
 
 - Ejecutar: npm start. La web abrirá en (http://localhost:5173/)
 
-## 6. Funcionalidades Implementadas
+## 7. Funcionalidades Implementadas
 
     [x] Formulario de ingreso por NIC.
 
@@ -106,13 +106,13 @@ Frontend (React)
 
     [x] Puntos Extra: Estructura de Monorepo para gestión centralizada.
 
-## 7. Limitaciones Conocidas
+## 8. Limitaciones Conocidas
 
 - Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
 
 - Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
 
-🛠️ Gestión del Proyecto (Azure Boards)
+## 9. Gestión del Proyecto (Azure Boards)
 
 La planificación se realizó bajo metodologías ágiles.
 
