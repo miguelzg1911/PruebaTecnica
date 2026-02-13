@@ -38,8 +38,24 @@ Se definieron las siguientes User Stories en Azure Boards para guiar el desarrol
 - Base de Datos: SQLite (Cumpliendo el RNF de portabilidad).
 
 - DevOps: Azure DevOps (Boards, Repos, Pipelines).
-
+  
 - Infraestructura: Azure App Service (Linux).
+  
+- Pruebas Unitarias: xUnit con 100% de éxito en lógica de negocio.
+
+- Contenedores: Docker y Docker Compose para orquestación local.
+
+## Calidad de Software
+
+Se implementó una suite de pruebas unitarias utilizando xUnit para garantizar la integridad de la lógica de agendamiento.
+
+- Casos probados: Validación de datos completos, rechazo de NICs vacíos y restricción de fechas pasadas.
+
+  - Ejecución:
+    
+        dotnet test
+
+  - Resultado: 3 pruebas superadas exitosamente.
 
 ### 4. Arquitectura de Despliegue (Azure)
 
