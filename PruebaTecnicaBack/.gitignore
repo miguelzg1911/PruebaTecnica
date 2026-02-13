@@ -1,0 +1,7 @@
+﻿[Bb]in/
+[Oo]bj/
+.idea/
+.vscode/
+publish/
+*.db-journal
+*.user
