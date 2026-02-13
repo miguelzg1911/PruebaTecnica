@@ -78,11 +78,7 @@ graph TD
 
 ## 6. Dockerización
 
-La solución está completamente contenedorizada para garantizar la portabilidad y consistencia entre entornos.
-
-- Estrategia: Multi-stage build para optimizar el tamaño de la imagen final.
-
-- Persistencia: Uso de volúmenes para el archivo electra.db de SQLite.
+La solución cuenta con la configuración necesaria para ser contenedorizada, garantizando portabilidad absoluta. Se entregan el Dockerfile y docker-compose.yaml optimizados con Multi-stage builds. Esto permite que cualquier equipo con Docker instalado pueda desplegar la solución completa sin configurar entornos locales.
 
 - Ejecución con Docker Compose:
 
@@ -120,8 +116,13 @@ Frontend (React)
 ## 9. Limitaciones Conocidas
 
 - Cuota de Azure: Debido a restricciones de cuota en suscripciones Trial, el escalado horizontal está limitado.
-
+  
 - Autenticación: El acceso se basa exclusivamente en el NIC del cliente para facilitar el uso residencial.
+  
+- Infraestructura Cloud: El despliegue automatizado mediante Pipelines se encuentra configurado pero pausado debido a limitaciones de cuota de paralelismo en la suscripción de Azure. Se
+priorizó la entrega de un código limpio, testeado y funcional de manera local.
+
+- Entorno Docker: Si bien se entregan los archivos de orquestación, la ejecución final depende de la habilitación de virtualización en el host de despliegue.
 
 ## 10. Gestión del Proyecto (Azure Boards)
 
